@@ -1,0 +1,31 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated model files
+models/*.pkl
+models/*.joblib
+models/*.pt
+models/*.pth
+
+# Temporary files
+*.log
+#this prevents generated models,api keys and venv ro accidentally commit
